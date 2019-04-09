@@ -12,7 +12,7 @@ public class ExpressionTree{
     }
     else
     {
-      return getValue() + " ";
+      return getValue() + "";
     }
   }
 
@@ -22,11 +22,11 @@ public class ExpressionTree{
     /*you are to write this method*/
     if(isOp())
     {
-      return getLeft().toStringPostfix() + " " + getRight().toStringPostfix() + " " + getOp() + " ";
+      return getLeft().toStringPostfix() + " " + getRight().toStringPostfix() + " " + getOp();
     }
     else
     {
-      return getValue() + " ";
+      return getValue() + "";
     }
   }
 
@@ -41,7 +41,7 @@ public class ExpressionTree{
     }
     else
     {
-      return getValue() + " ";
+      return getValue() + "";
     }
   }
 
